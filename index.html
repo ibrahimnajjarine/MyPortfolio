@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">MyPortfolio</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <h2>Welcome to My Portfolio</h2>
+      <p class="hero-content">I'm a passionate developer exploring the world of code.</p>
+      <a href="#projects" class="btn">View Projects</a>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! I’m a web developer with a love for building creative and user-friendly websites.
+        With a strong foundation in HTML, CSS, and JavaScript, I aim to create engaging online experiences.
+      </p>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2 class="projects-title">My Projects</h2>
+      <div class="project-grid">
+        <div class="project">
+          <h3>Project 1</h3>
+          <p>Description of the first project.</p>
+        </div>
+        <div class="project">
+          <h3>Project 2</h3>
+          <p>Description of the second project.</p>
+        </div>
+        <div class="project">
+          <h3>Project 3</h3>
+          <p>Description of the third project.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+      <h2>What People Say</h2>
+      <div class="slider">
+        <div class="slides">
+          <div class="slide">
+            <img src="images/imagepeople1.png" alt="Person 1">
+            <p>"This is the best service I have ever used!"</p>
+            <h4>- Jane Doe</h4>
+          </div>
+          <div class="slide">
+            <img src="images/imagepeople2.png" alt="Person 2">
+            <p>"Highly recommend to everyone looking for quality!"</p>
+            <h4>- John Smith</h4>
+          </div>
+          <div class="slide">
+            <img src="images/imagepeople3.png" alt="Person 3">
+            <p>"An exceptional experience from start to finish."</p>
+            <h4>- Sarah Lee</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message"placeholder="Your Message"rows="5"required></textarea>
+        <button type="submit" class="btn">Send</button>
+      </form>
+      <p id="formMessage"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 MyPortfolio. All rights reserved.</p>
+  </footer>
+</body>
+<script src="index.js"></script>
+</html>
